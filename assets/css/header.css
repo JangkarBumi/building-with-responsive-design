@@ -1,0 +1,50 @@
+.first-nav {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background-color: black;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.first-nav ul {
+    padding-left: 20px;
+}
+
+.first-nav li a {
+    display: block;
+    float: left;
+    color: #838383;
+    margin-right: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.first-nav li a span {
+    font-size: 8px;
+}
+
+.second-nav {
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    font-family: 'Ropa Sans', sans-serif;
+    text-transform: uppercase;
+    clear: left;
+}
+
+
+.second-nav li a {
+    display: block;
+    float: left;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #838383;
+}
+
+.tnw-conference-announcment {
+    float: right;
+
+}
