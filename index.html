@@ -12,7 +12,7 @@
 
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/header.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>TNW</title>
 </head>
@@ -22,18 +22,18 @@
     <nav class="first-nav">
       <ul>
         <li><a href="index.html">News</a></li>
-        <li>
+        <li class="drop-down">
           <a href="#">Events <span>&#9660;</span></a>
-          <ul class="drop-down">
-            <li>TNW Conference 2019</li>
-            <li>Hard Fork Decentralized 2018</li>
+          <ul class="drop-down-content">
+            <a>TNW Conference 2019</a>
+            <a>Hard Fork Decentralized 2018</a>
           </ul>
         </li>
-        <li>
+        <li class="drop-down">
           <a href="#">Business <span>&#9660;</span></a>
-          <ul class="drop-down">
-            <li>Index</li>
-            <li>TNW X</li>
+          <ul class="drop-down-content">
+            <a>Index</a>
+            <a>TNW X</a>
           </ul>
         </li>
         <li><a href="#">AMAs</a></li>
@@ -41,34 +41,56 @@
       </ul>
     </nav>
     <nav class="second-nav">
-      <ul>
-        <li><a href="index.html">Latest</a></li>
-        <li><a href="index.html">Hard Fork</a></li>
-        <li><a href="index.html">Plugged</a></li>
-        <li><a href="index.html">The next police</a></li>
-        <li><a href="index.html">Fundamentals</a></li>
-        <li><a href="index.html">IOT Lab</a></li>
-        <li><a href="index.html">Investing 2.0</a></li>
-      </ul>
-      <div class="tnw-conference-announcment">
+      <div class="left-nav">
+        <ul>
+          <li><a href="index.html">Latest</a></li>
+          <li><a href="index.html">Hard Fork</a></li>
+          <li><a href="index.html">Plugged</a></li>
+          <li><a href="index.html">The next police</a></li>
+          <li><a href="index.html">Fundamentals</a></li>
+          <li><a href="index.html">IOT Lab</a></li>
+          <li><a href="index.html">Investing 2.0</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
         <a>&#128270;&#xFE0E;</a>
-        <img class="conference-logo">
-        <p>Starts In <span>65:15:36:44</span></p>
-        <button class="get-tickets-btn">Get tickets</button>
+        <div class="tnw-conference-announcment">
+          <img class="conference-logo" src="assets/images/conf-logo.png" height="10" width="125">
+          <p>Starts In <span>65:15:36:44</span></p>
+          <button class="get-tickets-btn">Get tickets</button>
+        </div>
       </div>
     </nav>
-    <div class="insights-container">
-      <div classs="insights">
-        <p>Insights</p>
-        <p class="article-title">Circle Completes latest acquisition amid claims t's raising an extran $250M</p>
-        <p class="author">by Yessi Bello Perez</p>
-        <p class="time-published">&#128336;&#xFE0E;17 minutes ago</p>
-        <p class="shares-number"></p>
+    <div class="ticket"><a href="index.html">Get more than 75% off your ticket to TNW2010! Find out how &#8594;</a></div>
+    <div class="insights-grid">
+      <div class="insights" id="left">
+        <div class="article-info">
+          <p class="relate">World</p>
+          <p class="article-title">Bitcoin pyramid scheme leaves Kenyans out of pocket after exit scam</p>
+          <p class="author">by Yessi Bello Perez</p>
+          <p class="time-published">&#128336;&#xFE0E;17 minutes ago</p>
+          <p class="shares-number"></p>
+        </div>
       </div>
-      <div classs="insights"></div>
-      <div classs="insights"></div>
+      <div class="insights" id="right-top">
+        <div class="article-info">
+          <p class="relate">Tech</p>
+          <p class="article-title">Future interior design will make you feel like a wizard</p>
+          <p class="author">by Yessi Bello Perez</p>
+          <p class="time-published">&#128336;&#xFE0E;17 minutes ago</p>
+          <p class="shares-number"></p>
+        </div>
+      </div>
+      <div class="insights" id="right-bottom">
+        <div class="article-info">
+          <p class="relate">Tech</p>
+          <p class="article-title">Why is Netflix obsessed with homicidal heartthrobs?</p>
+          <p class="author">by Yessi Bello Perez</p>
+          <p class="time-published">&#128336;&#xFE0E;17 minutes ago</p>
+          <p class="shares-number"></p>
+        </div>
+      </div>
     </div>
-    <p class="ticket">Get more than 75% off your ticket to TNW2010! Find out how </p>
   </header>
 
   <!-- Separator -->

@@ -22,43 +22,191 @@
     font-weight: bold;
 }
 
-
-
 .first-nav li a span {
     font-size: 8px;
 }
 
+
 .drop-down {
-    display: none;
+    position: relative;
 }
 
-.first-nav ul li:hover {}
+.drop-down-content {
+    display: none;
+    position: absolute;
+    top: 32px;
+    left: -10px;
+    background-color: black;
+    min-width: 250px;
+}
+
+.drop-down-content a {
+    display: block;
+}
+
+.drop-down:hover .drop-down-content {
+    display: block;
+}
+
 
 .second-nav {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 49px;
     line-height: 49px;
     font-family: 'Ropa Sans', sans-serif;
     text-transform: uppercase;
-    clear: left;
+}
+
+.left-nav {
+    width: 63%;
+    padding-left: 10px;
 }
 
 
-.second-nav li a {
-    display: block;
+.left-nav:first-child {
+    padding-left: 10px;
+}
+
+.left-nav li a {
     float: left;
     padding: 0 10px 0 10px;
     text-align: center;
     font-size: 16px;
-    font-weight: 500;
     color: #838383;
 }
 
-.second-nav li:first-child {
-    padding-left: 10px;
+.left-nav li a:hover {
+    color: black;
 }
 
-.tnw-conference-announcment {
-    float: right;
 
+.right-nav {
+    width: 37%;
+    padding-left: 13px;
+    border-left: 1px solid rgba(0, 0, 0, .10);
+}
+
+
+
+
+.right-nav * {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.right-nav a {
+    font-size: 20px;
+    color: #a0a0a0;
+}
+
+.right-nav a:hover {
+    cursor: pointer;
+    color: #838383;
+}
+
+.right-nav img {
+    margin-top: 20px;
+}
+
+
+.right-nav p {
+    font-size: 13px;
+    color: #444444;
+}
+
+.right-nav p span {
+    color: #ff4422;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.right-nav .get-tickets-btn {
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 8px;
+    font-family: 'Ropa Sans', sans-serif;
+    text-transform: uppercase;
+    background-color: #0cc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+
+.right-nav .get-tickets-btn:hover {
+    background-color: #9900cc;
+    cursor: pointer;
+}
+
+.ticket {
+    background-color: #ffdd33;
+    padding-left: 20px;
+    color: black;
+    height: 30px;
+    line-height: 30px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+
+.insights-grid {
+    margin: 3px 10px 0 10px;
+    display: grid;
+    grid-gap: 8px;
+    grid-template: 50% 1fr / 65% 1fr;
+    grid-template-areas:
+        "left-all right-top"
+        "left-all right-bottom";
+    height: 70vh;
+}
+
+
+#left {
+    background: url();
+    background-size: cover;
+    grid-area: left-all;
+    border: 1px solid black;
+}
+
+#right-top {
+    background: url();
+    background-size: cover;
+    grid-area: right-top;
+    border: 1px solid black;
+}
+
+#right-bottom {
+    background: url();
+    background-size: cover;
+    grid-area: right-bottom;
+    border: 1px solid black;
+}
+
+.insights {
+    position: relative;
+}
+
+.article-info {
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    border: 1px solid black;
+}
+
+.article-info .relate {
+    font-size: 100%;
+}
+
+.article-info .article-title {
+    font-size: 6ex;
 }
