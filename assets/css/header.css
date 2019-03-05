@@ -10,32 +10,29 @@
     padding-left: 20px;
 }
 
-.first-nav li a {
+.first-nav ul li {
+    display: block;
     float: left;
+}
+
+.first-nav li a {
     color: #838383;
     margin-right: 12px;
     font-size: 14px;
     font-weight: bold;
 }
 
+
+
 .first-nav li a span {
     font-size: 8px;
 }
 
-ul li ul {
-    min-width: 200px;
-}
-
-ul li ul li{
+.drop-down {
     display: none;
-    min-width: 
 }
 
-.first-nav li:hover ul li a{
-    display: block;
-    overflow: hidden;
-
-}
+.first-nav ul li:hover {}
 
 .second-nav {
     width: 100%;
