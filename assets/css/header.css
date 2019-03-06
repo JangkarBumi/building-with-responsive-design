@@ -5,7 +5,8 @@
     font-family: 'Maven Pro', sans-serif;
     flex-wrap: wrap;
     position: fixed;
-    
+    z-index: 999;
+    background-color: #fff;
 }
 
 .logo {
@@ -90,5 +91,5 @@
 }
 
 .content {
-    height: 150vh;
+    height: 20vh;
 }

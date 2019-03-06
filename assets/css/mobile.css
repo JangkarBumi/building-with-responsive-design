@@ -1,0 +1,153 @@
+.u-row {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+}
+
+.distraction-header {
+    margin-bottom: 14px;
+}
+
+.distraction-header a {
+    text-decoration: none;
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 28px;
+    letter-spacing: -.015em;
+}
+
+.section-popular {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fopera-apple-ios-iphone-ethereum-ipad-cryptocurrency-blockchain.jpg&signature=72a2c4b3d6675781b5a54d09f94955bd)no-repeat 0% 50%;
+    background-size: cover;
+    position: relative;
+    height: 67vw;
+}
+
+.section-popular-section {
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    pointer-events: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+}
+
+.section-popular-header{
+    bottom: 0;
+    left: 0;
+    padding: 14px;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    background-color:rgba(3, 3, 3,0.7)
+}
+
+.section-popular-title {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.section-popular-title a {
+    color: #fff;
+}
+
+.section-popular-byline {
+    color: hsla(0, 0%, 100%, .6);
+}
+
+.section-latest {
+    display: flex;
+    height: 96px;
+}
+
+.section-latest-header {
+    display: block;
+    color: #f42;
+    font-size: 13px;
+    background: rgba(255, 204, 195, 0.3);
+    width: 75%;
+    height: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    line-height: 1.5;
+    padding: 10px 14px 0;
+}
+
+
+
+.section-latest-section {
+    width: 100%;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.section-latest-article-title {
+    width: 100%;
+}
+
+.section-latest-article-title a {
+    font-size: 14px;
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.25;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.latest-img {
+    display: inline-block;
+    min-width: 96px;
+    min-height: 96px;
+    height: 100%;
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/cryptocurrency-mining-bitcoin.jpg) no-repeat 50% 10%;
+    background-size: cover;
+    width: 25%;
+    padding-top: 10px;
+}
+
+.section-headline {
+    border-bottom: 1px solid #eee;
+}
+
+.distraction ul {
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.custom-bullet{
+    color: #f42;
+    font-size: 18px;
+    padding: 0px 5px 0px 0px;
+    position: relative;
+    top: 3px;
+
+}
+
+.section-headline h4 {
+    padding: 6px 0 6px 14px;
+}
+
+.section-headline h4 a {
+    color: #555;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+/* latest deals section */
+.deals{
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
