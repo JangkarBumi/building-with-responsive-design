@@ -20,7 +20,7 @@
 
 
 .nav {
-    width: 77%;
+    width: calc(77% - 7.7vw);
 }
 
 .logo img {
