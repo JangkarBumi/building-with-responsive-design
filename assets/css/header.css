@@ -5,6 +5,7 @@
     font-family: 'Maven Pro', sans-serif;
     flex-wrap: wrap;
     position: fixed;
+    clear: both;
     z-index: 999;
     background-color: #fff;
 }
@@ -90,6 +91,26 @@
     font-size: .6em;
 }
 
-.content {
-    height: 20vh;
+.clear {
+    height: 70px;
 }
+
+.features-articles {
+    width: 95%;
+    margin: 0 auto;
+    height: 89vh;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    width: 100%;
+}
+
+
+.left-column {
+    background-color: green;
+}
+
+.
