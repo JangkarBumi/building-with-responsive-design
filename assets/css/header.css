@@ -207,7 +207,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 1.6em;
     line-height: 2em;
-    clear: both;
+    margin-bottom: 10px;
 }
 
 .section-header a {
@@ -219,14 +219,46 @@
 }
 
 
-
-.latest-news img {
-    float: left;
-    margin-right: 1rem;
+.latest-news {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.latest-news-article {
+    width: 100%;
+    height: 93px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.latest-news-article img {
+    float: left;
+    margin-right: 1rem;
+    background-position: center;
+    background-size: cover;
+}
 
+.latest-news-title {
+    font-size: .86em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+.latest-news-article ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .76em;
+    float: left;
+    color: #a8a8a8;
+    line-height: 1.5em;
+    margin-right: 3px;
+}
+
+.latest-news-article ul li a {
+    color: #a8a8a8;
+}
+
+.latest-news-article ul li a:hover {
+    color: black;
+}
 
 
 /* reassign */
