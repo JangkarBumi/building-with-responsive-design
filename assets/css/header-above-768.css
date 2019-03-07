@@ -6,7 +6,6 @@
         justify-content: stretch;
     }
     
-
     .top-nav {
         display: block;
         width: 100%;
@@ -60,7 +59,9 @@
         display: block;
     }
     
-
+    .bottom-nav .left .time-remaining {
+        order: -1;
+    }
 
     .clear {
         height: 112px;
@@ -97,5 +98,25 @@
 
     .container2 .article {
         height: 231px;
+    }
+
+
+    .latest-news-section {
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .latest-news {
+        height: 60vh;
+    }
+
+    .latest-news img{
+        width: 226px;
+        height: 113px;
+        float: none;
+    }
+    .latest-news-article {
+        margin: 10px;
+        width: calc(33% - 20px);
     }
 }

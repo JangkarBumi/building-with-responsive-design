@@ -1,0 +1,29 @@
+@media screen and (min-width: 1024px){
+    
+   
+    .latest-news-section {
+        width: 95%;
+        margin-bottom: 30px;
+        height: 50vh;
+        padding-bottom: 30px;
+    }
+    .latest-news img{
+        width: 100%;
+        height: 50%;
+        float: none;
+    }
+    .latest-news-article {
+        margin: 10px;
+        width: calc(25% - 20px);
+        height: 30vh;
+    }
+    .latest-news-title {
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 1.05em;
+    }
+
+    .latest-news-article  ul {
+        font-size: 1.1em;
+    }
+}

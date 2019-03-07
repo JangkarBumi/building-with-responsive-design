@@ -21,7 +21,7 @@
 
 
 .nav {
-    width: calc(77% - 7.7vw);
+    width: calc(100% - 106px);
 }
 
 .logo img {
@@ -39,19 +39,28 @@
     line-height: 48px; 
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+}
+
+.bottom-nav .left {
+    display: none;
 }
 
 
 
-.bottom-nav * {
+
+
+.bottom-nav .right {
+    width: calc(100% - 106px);
     text-align: center;
+    display: flex;
+    align-content: center;
+
 }
 
 
 .time-remaining {
     color: #ff4422;
-    width: 74%;
+    width: 90%;
     font-family: 'Ropa Sans', sans-serif;
     font-size: 1.4em;
     letter-spacing: 2px;
