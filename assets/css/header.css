@@ -115,13 +115,11 @@
 
 .left-column {
     background:
-        linear-gradient(
-            rgba(0, 0, 0, .25), 
-            rgba(0, 0, 0, .60), 
-            rgba(0, 0, 0, .70),
-            rgba(0, 0, 0, 1)
-            ), 
-            url(../images/article-pic-1.jpg);
+        linear-gradient(rgba(0, 0, 0, .25),
+        rgba(0, 0, 0, .60),
+        rgba(0, 0, 0, .70),
+        rgba(0, 0, 0, 1)),
+        url(../images/article-pic-1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -129,26 +127,22 @@
 
 .top {
     background:
-        linear-gradient(
-            rgba(0, 0, 0, .25), 
-            rgba(0, 0, 0, .60), 
-            rgba(0, 0, 0, .70),
-            rgba(0, 0, 0, 1)
-            ), 
-            url(../images/article-pic-2.jpg);
+        linear-gradient(rgba(0, 0, 0, .25),
+        rgba(0, 0, 0, .60),
+        rgba(0, 0, 0, .70),
+        rgba(0, 0, 0, 1)),
+        url(../images/article-pic-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .bottom {
     background:
-        linear-gradient(
-            rgba(0, 0, 0, .25), 
-            rgba(0, 0, 0, .60), 
-            rgba(0, 0, 0, .70),
-            rgba(0, 0, 0, 1)
-            ), 
-            url(../images/article-pic-3.jpg);
+        linear-gradient(rgba(0, 0, 0, .25),
+        rgba(0, 0, 0, .60),
+        rgba(0, 0, 0, .70),
+        rgba(0, 0, 0, 1)),
+        url(../images/article-pic-3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -186,12 +180,15 @@
     color: #a8a8a8;
     line-height: 1.5em;
 }
+
 .article-info-footer a {
-    color:#a8a8a8;
+    color: #a8a8a8;
 }
+
 .article-info-footer a:hover {
     color: white;
 }
+
 .article-info-footer li {
     margin-right: 4px;
 }
@@ -201,6 +198,38 @@
 /* Latest News */
 
 
+.latest-news-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .section-header {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    line-height: 2em;
+    clear: both;
+}
+
+.section-header a {
+    color: #ff4422;
+}
+
+.section-header a:hover {
+    color: black;
+}
+
+
+
+.latest-news img {
+    float: left;
+    margin-right: 1rem;
+}
+
+
+
+
+
+/* reassign */
+.u-row {
+    visibility: hidden;
 }
