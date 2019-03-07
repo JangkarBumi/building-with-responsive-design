@@ -37,14 +37,14 @@
     letter-spacing: .04em;
 }
 
-.section-popular-header{
+.section-popular-header {
     bottom: 0;
     left: 0;
     padding: 14px;
     position: absolute;
     right: 0;
     z-index: 3;
-    background-color:rgba(3, 3, 3,0.7)
+    background-color: rgba(3, 3, 3, 0.7)
 }
 
 .section-popular-title {
@@ -121,7 +121,7 @@
     padding-top: 20px;
 }
 
-.custom-bullet{
+.custom-bullet {
     color: #f42;
     font-size: 18px;
     padding: 0px 5px 0px 0px;
@@ -144,36 +144,65 @@
 }
 
 /* latest deals section */
-.deals{
+.deals {
     margin: 0 auto;
     max-width: 1192px;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
-.deals-list{
+.deals-list {
     display: flex;
     padding-bottom: 10px;
 }
 
-.deals-list span{
+.deals-list span {
     padding-top: 10px;
 }
 
-.deals-text{
+.deals-text {
     display: flex;
     flex-direction: column;
     min-height: 72px;
     padding-left: 10px;
 }
 
-.deals-img{
-    width: 75px;
-    height: 75px;
+.deals-text h4{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #000;
 }
 
-.latest-deal{
+
+.price-container{
+    padding-top: 10px;
+}
+.deals-text span{
+    color: #555;
+    font-size: 14px
+}
+
+.old-price{
+    text-decoration: line-through;
+    margin-right: 4px;
+}
+
+
+.adeal-img{
+    display: inline-block;
+    min-width: 75px;
+    min-height: 75px;
+    height: 100%;
+    background: url(https://cdnp2.stackassets.com/4140ca602e1df829731b51f3d44ae0eb72bb0510/store/5d7b240a3caea73d7288edc202bf46004c819e7b54b7a7d750bd580f8c51/sale_17183_primary_image.jpg) no-repeat 50% 10%;
+    background-size: cover;
+    width: 25%;
+    padding-top: 10px;
+}
+
+.latest-deal {
     text-decoration: none;
     color: #f42;
     font-weight: 700;
@@ -183,13 +212,117 @@
     letter-spacing: -.015em;
 }
 
-.latest-deal-more{
+.latest-deal-more {
     float: right;
     line-height: 18px;
     margin-top: 11px;
     color: #f42;
 }
 
-.deals-header{
+.deals-header {
     margin-bottom: 24px;
+}
+
+/* footer section */
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+}
+
+.footer-links {
+    background: #131313;
+    padding: 2.5em 0;
+    color: #fff;
+}
+
+.footer-links-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:5px
+}
+
+.footer-links-social li{
+    margin: 5px;
+}
+
+.footer-links-social li a {
+    background: #333;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+    width: 40px;
+    box-sizing: border-box;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+    color: #fff;
+}
+
+.footer-links-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.footer-links-menu li {
+    margin: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 4px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.footer-links-menu li a {
+    color: #aaa;
+}
+
+.footer-legal {
+    background: #000;
+    color: #aaa;
+    font-size: 13px;
+    padding: 2.5em 0;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.footer-legal span{
+    display: block;
+    padding-bottom: 5px;
+}
+
+.footer-legal span b{
+    color: #f42;
+    font-weight: 700;
+}
+
+.footer-legal-logo{
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
+}
+
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-legal-logoStackPath{
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
 }
