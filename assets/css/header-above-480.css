@@ -1,0 +1,13 @@
+@media screen and (min-width: 480px) {
+    .ticket {
+        font-size: .8em;
+    }
+
+    .bottom-nav {
+        justify-content: space-between;
+    }
+
+    .time-remaining {
+        order: 1;
+    }
+}
