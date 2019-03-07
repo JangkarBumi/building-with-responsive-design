@@ -106,9 +106,6 @@
         margin-bottom: 30px;
     }
 
-    .latest-news {
-        height: 80vh;
-    }
 
     .latest-news img{
         width: 226px;
@@ -116,6 +113,7 @@
         float: none;
     }
     .latest-news-article {
+        height: 20vh;
         margin: 10px;
         width: calc(33% - 20px);
     }

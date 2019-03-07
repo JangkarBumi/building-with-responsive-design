@@ -4,7 +4,6 @@
     .latest-news-section {
         width: 95%;
         margin-bottom: 30px;
-        height: 50vh;
         padding-bottom: 30px;
     }
     .latest-news img{
@@ -12,10 +11,11 @@
         height: 50%;
         float: none;
     }
+
     .latest-news-article {
         margin: 10px;
         width: calc(25% - 20px);
-        height: 30vh;
+        height: 20vh;
     }
     .latest-news-title {
         font-size: 1em;
