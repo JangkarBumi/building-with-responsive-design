@@ -31,37 +31,33 @@
 }
 
 
-.top-nav {
-    display: none;
-}
-
 .bottom-nav {
-    line-height: 48px; 
+    line-height: 48px;
     width: 100%;
-    display: flex;
+
 }
-
-.bottom-nav .left {
-    display: none;
-}
-
-
-
-
 
 .bottom-nav .right {
-    width: calc(100% - 106px);
+    width: 100%;
     text-align: center;
     display: flex;
-    align-content: center;
+    justify-content: flex-start;
 
+}
+
+.top-nav,
+.bottom-nav .left,
+.bottom-nav .right .get-tickets-btn,
+.bottom-nav .right .conference-logo,
+#toggle {
+    display: none;
 }
 
 
 .time-remaining {
     color: #ff4422;
-    width: 90%;
     font-family: 'Ropa Sans', sans-serif;
+    width: 70%;
     font-size: 1.4em;
     letter-spacing: 2px;
     border-right: 1px solid rgba(121, 121, 121, 0.15);
@@ -70,7 +66,7 @@
 
 .search-btn {
     font-size: 20px;
-    width: 13%;
+    width: 15%;
     color: #a0a0a0;
     border-right: 1px solid rgba(121, 121, 121, 0.15);
 }
@@ -83,11 +79,17 @@
 
 .hamburger-btn {
     color: #ff4422;
+    width: 15%;
     font-size: 1.3em;
     cursor: pointer;
-    width: 13%;
     font-weight: bolder;
+    user-select: none;
 }
+
+.hamburger-btn:checked .bottom-nav .left {
+    display: block;
+}
+
 
 .ticket {
     width: 100%;
@@ -250,7 +252,7 @@
     margin-right: 1rem;
     background-position: center;
     background-size: cover;
-    
+
 }
 
 .latest-news-title {

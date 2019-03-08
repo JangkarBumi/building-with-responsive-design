@@ -1,11 +1,11 @@
 @media screen and (min-width: 768px) {
 
     .header {
-        height: 83px;
+        height: 84px;
         display: flex;
         justify-content: stretch;
     }
-    
+
     .top-nav {
         display: block;
         width: 100%;
@@ -18,28 +18,28 @@
     .top-nav ul {
         padding-left: 20px;
     }
-    
+
     .top-nav ul li {
         display: block;
         float: left;
     }
-    
+
     .top-nav li a {
         color: #838383;
         margin-right: 12px;
         font-size: 14px;
         font-weight: bold;
     }
-    
+
     .top-nav li a span {
         font-size: 8px;
     }
-    
-    
+
+
     .drop-down {
         position: relative;
     }
-    
+
     .drop-down-content {
         display: none;
         position: absolute;
@@ -48,19 +48,60 @@
         background-color: black;
         min-width: 250px;
     }
-    
-
 
     .drop-down-content a {
         display: block;
     }
-    
+
     .drop-down:hover .drop-down-content {
         display: block;
     }
-    
-    .bottom-nav .left .time-remaining {
-        order: -1;
+
+
+    .bottom-nav  {
+        display: flex;
+        width: 100%;
+        line-height: 49px;
+        font-family: 'Ropa Sans', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .bottom-nav .left {
+        width: 72%;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .bottom-nav .left ul li {
+        display: inline-block;
+    }
+    .bottom-nav .left ul li a {
+        display: block;
+    }
+
+
+    .left ul li:nth-child(6) a,
+    .left ul li:nth-child(7) a {
+        display: none;
+    }
+
+    .left li a:hover {
+        color: black;
+    }
+
+    .bottom-nav .right {
+        width: 28%;
+    }
+
+    .bottom-nav .right .hamburger-btn {
+        display: none;
+    }
+
+    .bottom-nav .right .search-btn {
+        border-right: none;
     }
 
     .clear {
@@ -107,14 +148,20 @@
     }
 
 
-    .latest-news img{
+    .latest-news img {
         width: 226px;
         height: 113px;
         float: none;
     }
+
     .latest-news-article {
         height: 20vh;
         margin: 10px;
         width: calc(33% - 20px);
+    }
+
+
+    .u-row {
+        display: none;
     }
 }
