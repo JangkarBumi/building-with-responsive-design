@@ -42,18 +42,22 @@
         width: 95%;
         margin-bottom: 30px;
         padding-bottom: 30px;
-    }
 
-    .latest-news img {
-        width: 100%;
-        height: 50%;
+    }
+    .img-container {
         float: none;
+        height: 15vw;
+        margin-right: 10px;
+        overflow: hidden;
     }
-
+    
+    .img-container img{
+        width: auto;
+        max-height: 100%;
+    }
     .latest-news-article {
         margin: 10px;
         width: calc(25% - 20px);
-        height: 20vh;
     }
 
     .latest-news-title {
@@ -95,6 +99,7 @@
     .bottom-nav .left ul li a {
         display: block;
     }
+
     .left-column {
         background:
             linear-gradient(rgba(223, 71, 71, 0.70),
@@ -105,5 +110,28 @@
         background-size: cover;
         background-position: center;
     }
+
     
+    .latest-news-section {
+        width: 1214px;
+        margin: 0 auto;
+        height: 800px;
+    }
+
+   
+
+    .latest-news-article {
+        height: 350px;
+    }
+
+    .latest-news {
+        height: 70vh;
+    }
+
+    .img-container {
+        float: none;
+        height: 270px;
+        margin-bottom: 10px;
+    }
+
 }

@@ -49,7 +49,7 @@
         min-width: 250px;
     }
 
-    .drop-down-content a {
+    .drop-down-content li a {
         display: block;
     }
 
@@ -147,19 +147,21 @@
         margin-bottom: 30px;
     }
 
-
-    .latest-news img {
-        width: 226px;
-        height: 113px;
-        float: none;
-    }
-
+    
     .latest-news-article {
-        height: 20vh;
+        height: calc(25vw - 20px);
         margin: 10px;
         width: calc(33% - 20px);
     }
     
+
+    .img-container {
+        float: none;
+        height: 15vw;
+        margin-bottom: 10px;
+    }
+
+
     /*  distraction section */
     .u-row {
         display: flex;
