@@ -1,6 +1,7 @@
 # Building with Responsive Design
 
 In this project we learn how to make website pages responsive using media queries & using the mobile first approach.
+We learned about major and minor breakpoints in this website.
 
 We used thenextweb as a reference to apply the concepts that we learned.
 
